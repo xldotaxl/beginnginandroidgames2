@@ -19,7 +19,7 @@ public class Texture {
     String fileName;
     int textureId;
     int minFilter;
-    int magFilter;    
+    int magFilter;
     int width;
     int height;
     
