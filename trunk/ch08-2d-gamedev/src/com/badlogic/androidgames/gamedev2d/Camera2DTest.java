@@ -7,7 +7,10 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.util.FloatMath;
 
+import com.badlogic.androidgames.framework.DynamicGameObject;
 import com.badlogic.androidgames.framework.Game;
+import com.badlogic.androidgames.framework.GameObject;
+import com.badlogic.androidgames.framework.SpatialHashGrid;
 import com.badlogic.androidgames.framework.Input.TouchEvent;
 import com.badlogic.androidgames.framework.Screen;
 import com.badlogic.androidgames.framework.gl.Camera2D;
@@ -15,7 +18,6 @@ import com.badlogic.androidgames.framework.gl.Vertices;
 import com.badlogic.androidgames.framework.impl.GLGame;
 import com.badlogic.androidgames.framework.impl.GLGraphics;
 import com.badlogic.androidgames.framework.math.OverlapTester;
-import com.badlogic.androidgames.framework.math.SpatialHashGrid;
 import com.badlogic.androidgames.framework.math.Vector2;
 
 public class Camera2DTest extends GLGame {

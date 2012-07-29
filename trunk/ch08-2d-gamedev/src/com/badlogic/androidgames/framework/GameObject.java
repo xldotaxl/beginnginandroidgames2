@@ -1,4 +1,4 @@
-package com.badlogic.androidgames.gamedev2d;
+package com.badlogic.androidgames.framework;
 
 import com.badlogic.androidgames.framework.math.Rectangle;
 import com.badlogic.androidgames.framework.math.Vector2;

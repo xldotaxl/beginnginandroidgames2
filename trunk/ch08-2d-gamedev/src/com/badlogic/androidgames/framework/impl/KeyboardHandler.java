@@ -60,8 +60,9 @@ public class KeyboardHandler implements OnKeyListener {
     public List<KeyEvent> getKeyEvents() {
         synchronized (this) {
             int len = keyEvents.size();
-            for (int i = 0; i < len; i++)
+            for (int i = 0; i < len; i++) {
                 keyEventPool.free(keyEvents.get(i));
+            }
             keyEvents.clear();
             keyEvents.addAll(keyEventsBuffer);
             keyEventsBuffer.clear();

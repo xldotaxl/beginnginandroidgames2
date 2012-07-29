@@ -2,6 +2,7 @@ package com.badlogic.androidgames.gamedev2d;
 
 import javax.microedition.khronos.opengles.GL10;
 
+import com.badlogic.androidgames.framework.DynamicGameObject;
 import com.badlogic.androidgames.framework.Game;
 import com.badlogic.androidgames.framework.Screen;
 import com.badlogic.androidgames.framework.gl.Animation;

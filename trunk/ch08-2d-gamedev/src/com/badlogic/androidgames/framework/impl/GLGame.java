@@ -153,15 +153,15 @@ public abstract class GLGame extends Activity implements Game, Renderer {
         return audio;
     }
 
-    public void setScreen(Screen screen) {
-        if (screen == null)
+    public void setScreen(Screen newScreen) {
+        if (newScreen == null)
             throw new IllegalArgumentException("Screen must not be null");
 
         this.screen.pause();
         this.screen.dispose();
-        screen.resume();
-        screen.update(0);
-        this.screen = screen;
+        newScreen.resume();
+        newScreen.update(0);
+        this.screen = newScreen;
     }
 
     public Screen getCurrentScreen() {
