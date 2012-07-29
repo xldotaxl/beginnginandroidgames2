@@ -1,5 +1,7 @@
 package com.badlogic.androidgames.gamedev2d;
 
+import com.badlogic.androidgames.framework.GameObject;
+
 public class Cannon extends GameObject {
     public float angle;
     

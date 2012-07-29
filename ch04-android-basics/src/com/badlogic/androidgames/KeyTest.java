@@ -39,9 +39,6 @@ public class KeyTest extends Activity implements OnKeyListener {
         Log.d("KeyTest", text);
         textView.setText(text);
 
-        if (event.getKeyCode() == KeyEvent.KEYCODE_BACK)
-            return false;
-        else
-            return true;
+        return event.getKeyCode() != KeyEvent.KEYCODE_BACK;
     }
 }

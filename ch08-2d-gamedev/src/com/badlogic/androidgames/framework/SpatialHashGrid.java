@@ -1,9 +1,7 @@
-package com.badlogic.androidgames.framework.math;
+package com.badlogic.androidgames.framework;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.badlogic.androidgames.gamedev2d.GameObject;
 
 import android.util.FloatMath;
 
