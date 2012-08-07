@@ -130,6 +130,7 @@ public class Camera2DTest extends GLGame {
 
 	    public void present(float deltaTime) {
 	        GL10 gl = glGraphics.getGL();
+	        gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 	        camera.setViewportAndMatrices();
 	        
 	        gl.glColor4f(0, 1, 0, 1);
