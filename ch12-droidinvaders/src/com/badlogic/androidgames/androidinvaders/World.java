@@ -1,4 +1,4 @@
-package com.badlogic.androidgames.droidinvaders;
+package com.badlogic.androidgames.androidinvaders;
 
 import java.util.ArrayList;
 import java.util.List;
