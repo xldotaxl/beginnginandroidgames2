@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.badlogic.androidgames.droidinvaders"
+    package="com.badlogic.androidgames.androidinvaders"
     android:versionCode="1"
     android:versionName="1.0"
     android:installLocation="preferExternal" >
@@ -16,9 +16,10 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".DroidInvaders"
+            android:name=".AndroidInvaders"
             android:label="@string/title_activity_main" 
-            android:configChanges="keyboard|keyboardHidden|orientation">
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

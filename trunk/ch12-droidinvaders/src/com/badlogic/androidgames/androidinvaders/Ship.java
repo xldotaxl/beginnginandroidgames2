@@ -1,4 +1,4 @@
-package com.badlogic.androidgames.droidinvaders;
+package com.badlogic.androidgames.androidinvaders;
 
 import com.badlogic.androidgames.framework.DynamicGameObject3D;
 

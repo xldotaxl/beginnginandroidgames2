@@ -1,10 +1,10 @@
-package com.badlogic.androidgames.droidinvaders;
+package com.badlogic.androidgames.androidinvaders;
 
 import java.util.List;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import com.badlogic.androidgames.droidinvaders.World.WorldListener;
+import com.badlogic.androidgames.androidinvaders.World.WorldListener;
 import com.badlogic.androidgames.framework.Game;
 import com.badlogic.androidgames.framework.Input.TouchEvent;
 import com.badlogic.androidgames.framework.gl.Camera2D;

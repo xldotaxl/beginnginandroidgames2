@@ -1,4 +1,4 @@
-package com.badlogic.androidgames.droidinvaders;
+package com.badlogic.androidgames.androidinvaders;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
@@ -6,7 +6,7 @@ import javax.microedition.khronos.opengles.GL10;
 import com.badlogic.androidgames.framework.Screen;
 import com.badlogic.androidgames.framework.impl.GLGame;
 
-public class DroidInvaders extends GLGame {
+public class AndroidInvaders extends GLGame {
     boolean firstTimeCreate = true;
 
     public Screen getStartScreen() {
