@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".GLAdvancedStarter"
-            android:label="@string/title_activity_main" >
+            android:label="Chapter 11 - Advanced 3D" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
