@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".AndroidInvaders"
-            android:label="@string/title_activity_main" 
+            android:label="Android Invaders" 
             android:configChanges="keyboard|keyboardHidden|orientation"
             android:screenOrientation="landscape">
             <intent-filter>

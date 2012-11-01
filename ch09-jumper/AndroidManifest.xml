@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".SuperJumper"
-            android:label="@string/title_activity_super_jumper"
+            android:label="Super Jumper"
             android:screenOrientation="portrait"
             android:configChanges="keyboard|keyboardHidden|orientation">
             <intent-filter>

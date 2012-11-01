@@ -17,10 +17,9 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".GL3DBasicsStarter"
-            android:label="@string/title_activity_main" >
+            android:label="Chapter 10 - OpenGL 3D" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
